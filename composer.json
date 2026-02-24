@@ -1,12 +1,20 @@
 {
     "name": "andreyizmaylov/otus-algo26",
     "require": {
-        "phpunit/phpunit": "^12.5"
+        "phpunit/phpunit": "^12.5",
+        "monolog/monolog": "^3.10",
+	    "ext-bcmath": "*"
     },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "scripts": {
+        "check-performance": [
+            "Composer\\Config::disableProcessTimeout",
+            "php src/DataStructures/CheckPerformance.php"
+        ]
     },
     "authors": [
         {
