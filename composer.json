@@ -3,7 +3,8 @@
     "require": {
         "phpunit/phpunit": "^12.5",
         "monolog/monolog": "^3.10",
-	    "ext-bcmath": "*"
+	    "ext-bcmath": "*",
+	    "ext-gmp": "*"
     },
     "autoload": {
         "psr-4": {
