@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace App\Sort;
 
+/*
+ * Для запуска в консоли из папки с файлом набрать php SortAlgo02.php
+ */
 class SortAlgo02
 {
     public static function heapSort(array $array): array
